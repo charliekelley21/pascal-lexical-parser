@@ -1,0 +1,26 @@
+alice found mean green book
+((("alice")) ("found") ((("mean"("green"))"book")))
+mean cow saw carefully green alice with book
+(((("mean")"cow")) ("saw""carefully") ((("green")"alice"("with"("book")))))
+billy found green book
+Input has invalid tokens.
+alice with cow found cow with book of cow 
+((("alice"("with"("cow")))) ("found") (("cow"("with"("book"("of"("cow")))))))
+alice made book
+Input has invalid tokens.
+alice book found
+Input is not a sentence.
+green found book alice
+Input is not a sentence.
+alice found with saw green book
+Input is not a sentence.
+alice sold book
+Input has invalid tokens.
+alice found frog
+Input has invalid tokens.
+alice quickly saw book
+Input is not a sentence.
+green cow of lean book saw brilliantly lean alice at with cow
+Input is not a sentence.
+at alice found quickly book
+Input is not a sentence.
