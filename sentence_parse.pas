@@ -38,7 +38,6 @@ procedure lookup ( lexeme : string ); forward;
 procedure getNonBreak; forward;
 procedure getChar; forward;
 { System I/O and error methods }
-procedure prompt; forward;
 procedure appendOutput ( addend : string ); forward;
 procedure appendLexeme ( lexeme : string ); forward;
 procedure error ( msg : string ); forward;
@@ -314,19 +313,12 @@ begin
     output := output + '"';
 end;
 
-procedure prompt;
-begin
-   { writeln('Sentence:'); }
-    readln(line);
-end;
-
 procedure sentence_setup;
 begin
     line_ind := 1;
     output := '';
     error_msg := '';
     failed_parse := false;
-    writeln('sentence:');
 end;
 
 {-------------------------------------------------------------------------------
